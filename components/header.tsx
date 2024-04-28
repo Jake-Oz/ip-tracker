@@ -52,7 +52,7 @@ const Header = () => {
           type="text"
           onChange={(e) => setTerm(e.target.value)}
           placeholder="Search for any IP address or domain"
-          className="cursor-pointer w-[270px] sm:min-w-[300px] sm:max-w-[500px] rounded-l-xl rounded-r-none h-[60px]"
+          className="cursor-pointer w-[270px] sm:min-w-[300px] sm:w-[500px] rounded-l-xl rounded-r-none h-[60px]"
           defaultValue={searchParams.get("query")?.toString()}
         />
         <Button
